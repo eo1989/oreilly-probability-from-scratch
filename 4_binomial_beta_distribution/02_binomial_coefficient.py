@@ -10,5 +10,5 @@ def factorial(n: int):
 def binomial_coefficient(n: int, k: int):
     return factorial(n) / (factorial(k) * factorial(n - k))
 
-print("FACTORIAL of 3: {}".format(factorial(3)))
-print("BINOMIAL COEFFICIENT n=3, k=2: {}".format(binomial_coefficient(3,2)))
+print(f"FACTORIAL of 3: {factorial(3)}")
+print(f"BINOMIAL COEFFICIENT n=3, k=2: {binomial_coefficient(3, 2)}")

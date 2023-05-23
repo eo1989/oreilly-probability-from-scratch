@@ -9,7 +9,7 @@ mean = 64.43
 std_dev = 2.99
 
 # generate 10 random values following 
-# normal distribution 
-for i in range(0,10):
+# normal distribution
+for _ in range(0,10):
     random_p = random.uniform(0.0, 1.0)
     print(inv_normal_cdf(random_p, mean, std_dev))

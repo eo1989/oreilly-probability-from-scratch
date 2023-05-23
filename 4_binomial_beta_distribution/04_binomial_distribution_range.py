@@ -25,8 +25,8 @@ prob_eight_or_less_successes = 0.0
 
 for k in range(0,9):
     prob_of_k_successes = binomial_distribution(n, k, p)
-    print("PROB {} SUCCESSES: {}".format(k, prob_of_k_successes))
+    print(f"PROB {k} SUCCESSES: {prob_of_k_successes}")
     prob_eight_or_less_successes += prob_of_k_successes
 
-print("PROB 8 OR LESS SUCCESSES: {}".format(prob_eight_or_less_successes))
+print(f"PROB 8 OR LESS SUCCESSES: {prob_eight_or_less_successes}")
 # PROB 8 OR LESS SUCCESSES: 0.2639010708999999
