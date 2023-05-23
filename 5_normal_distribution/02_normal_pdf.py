@@ -10,5 +10,5 @@ std_dev = 15.0
 
 for x in range(0,100):
     likelihood_of_x = normal_pdf(x, mean, std_dev)
-    print("{},{}".format(x, likelihood_of_x))
+    print(f"{x},{likelihood_of_x}")
 

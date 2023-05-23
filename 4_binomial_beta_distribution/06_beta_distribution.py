@@ -30,5 +30,5 @@ def beta_distribution(x: float, alpha: float, beta: float) -> float:
 greater_than_90 = approximate_integral(a=.90,b=1.0, n=1000, f=lambda x: beta_distribution(x, 8, 2))
 less_than_90 = 1.0 - greater_than_90
 
-print("GREATER THAN 90%: {}, LESS THAN 90%: {}".format(greater_than_90, less_than_90))
+print(f"GREATER THAN 90%: {greater_than_90}, LESS THAN 90%: {less_than_90}")
 # GREATER THAN 90%: 0.22515904881135335, LESS THAN 90%: 0.7748409511886467

@@ -22,5 +22,5 @@ k = 8
 
 p_eight_successes = binomial_distribution(n, k, p)
 
-print("PROB 8 SUCCESSES: {}".format(p_eight_successes))
+print(f"PROB 8 SUCCESSES: {p_eight_successes}")
 # PROB 8 SUCCESSES: 0.19371024449999993

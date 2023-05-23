@@ -22,5 +22,5 @@ def dog_weight_distribution(x):
 
 prob_between_62_and_66 = approximate_integral(a=62, b=66, n=1000, f=dog_weight_distribution)
 
-print("PROB BETWEEN 62 and 66: {}".format(prob_between_62_and_66))
+print(f"PROB BETWEEN 62 and 66: {prob_between_62_and_66}")
 # PROB BETWEEN 62 and 66: 0.4920450456930307

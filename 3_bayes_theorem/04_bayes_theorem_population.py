@@ -10,4 +10,4 @@ gamers_and_homicidal_ct = homicidal_criminals_ct * p_gamer_given_homicidal
 
 p_homicidal_given_gamer = gamers_and_homicidal_ct / gamers_ct
 
-print("Probability of homicidal given gamer: {}".format(p_homicidal_given_gamer))
+print(f"Probability of homicidal given gamer: {p_homicidal_given_gamer}")

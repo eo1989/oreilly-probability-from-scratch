@@ -10,5 +10,5 @@ std_dev = 2.99
 
 prob_between_62_and_66 = normal_cdf(66.0, mean, std_dev) - normal_cdf(62.0, mean, std_dev)
 
-print("PROB BETWEEN 62_and_66: {}".format(prob_between_62_and_66))
+print(f"PROB BETWEEN 62_and_66: {prob_between_62_and_66}")
 # PROB BETWEEN 62_and_66: 0.49204501470628936
